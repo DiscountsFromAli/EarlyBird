@@ -99,668 +99,7 @@
     <body>
 
 
-<style>p { font-size:20px; line-height:10px; margin-top:30px;page-break-before:;}</style>
-<style>.product-block { margin-bottom: 0.1; border: 0.1;  #D3D3D3; border-radius: 1px; padding: 5px; }</style>
-<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 120%; color: #000000; font-weight: bold; margin-top: 20px;"><br>Світло/розетки
- <br>(01.04.2025, 11:59)<br></p>
-<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;"><b>🐣 МИТТЄВІ ПОКУПКИ</b><br>‼️Розділ в якому обмежена кількість<br>товару за заниженими цінами.<br>При зменшенні кількості ціна зростає.<br>ⓘ Ціни без урахування знижки за монети та купони<br></p>
-<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;">⚠️ Важливо - якщо не встигли,<br>обов-язково додавайте товар до кошика 🛒 ,<br>через деякий час знову буде за тою ж ціною!<br><b>🐾 Для переходу до товару натисніть на фото</b></p>
-<style>
-                                                                                                        .container {
-                                                                                                            display: flex;
-                                                                                                            flex-direction: column;
-                                                                                                            align-items: flex-start;
-                                                                                                            gap: 5px;
-                                                                                                            width: calc(100% - 10px);
-                                                                                                        }
-                                                                                                        .product-item {
-                                                                                                            width: 100%;
-                                                                                                            box-sizing: border-box;
-                                                                                                            border: 1px solid #ddd;
-                                                                                                            padding: 5px;
-                                                                                                            text-align: left;
-                                                                                                            border-radius: 8px;
-                                                                                                            height: auto;
-                                                                                                            background: #f9f9f9;
-                                                                                                            gap: 5px;
-                                                                                                        }
-                                                                                                        .product-item p.text {
-                                                                                                            margin-top: 5px;
-                                                                                                            line-height: 5px;  /* Інтервал між рядками для заголовка */
-                                                                                                            font-size: 15px;
-                                                                                                            text-align: left;                                                   
-                                                                                                        }
-                                                                            .product-item img {
-                                                                                display: block; /* Дозволяє margin: auto працювати */
-                                                                                margin: auto; 
-                                                                                align-items: center; /* Центрує по вертикалі */
-                                                                                justify-content: center;
-                                                                                width: 100%;
-                                                                                height: auto;
-                                                                                border-radius: 8px;                                                   
-                                                                            }
-                                                                            .product-item p.title {
-                                                                                margin-top: 10px;
-                                                                                line-height: 20px;  /* Інтервал між рядками для заголовка */
-                                                                                font-size: 20px;
-                                                                                font-weight: bold;
-                                                                                text-align: left;
-                                                                                max-width: 100%;
-                                                                                white-space: nowrap;
-                                                                                overflow: hidden;
-                                                                            }
-                                                                            .product-item p.link {  
-                                                                                margin-top: -3px;
-                                                                                height: 20px;                                                  
 
-                                                                                line-height: 2px;  /* Інтервал між рядками для заголовка */
-                                                                                font-size: 10px;
-                                                                                font-weight: bold;
-                                                                                text-align: left;
-                                                                            }
-                                                                            .product-item p.link a {
-                                                                                display: flex;
-                                                                                align-items: center; /* Центрує по вертикалі */
-                                                                                justify-content: center; /* Центрує по горизонталі */
-                                                                                padding: 5px 10px;
-                                                                                background-color: #fff; /* Колір кнопки */
-                                                                                color: #007bff; /* Синій текст */
-                                                                                font-size: 15px;
-                                                                                font-weight: bold;
-                                                                                height: 12px; /* Висота кнопки */
-                                                                                width: 90%; /* Ширина кнопки */
-
-                                                                                text-align: center;
-                                                                                text-decoration: none;
-                                                                                border: 1px solid #007bff;
-                                                                                border-radius: 5px; /* Закруглені кути */
-                                                                                transition: background-color 0.3s ease;
-                                                                            }
-
-                                                                            .product-item p.link a:hover {
-                                                                                background-color: #0056b3; /* Темніший відтінок при наведенні */
-                                                                            }
-                                                                            .link strong {
-                                                                                display: flex;
-                                                                                align-items: center; /* Центрує по вертикалі */
-                                                                                justify-content: center; /* Центрує по горизонталі */
-                                                                                background-color: #fff; /* Колір кнопки (синій) */
-                                                                                color: #007bff; /* Синій текст */
-                                                                                height: 12px; /* Висота кнопки */
-                                                                                width: 90%; /* Ширина кнопки */
-                                                                                padding: 5px 10px; /* Відступи всередині кнопки */
-                                                                                border-radius: 5px; /* Закруглені кути */
-                                                                                cursor: pointer; /* Курсор у вигляді руки */
-                                                                                text-align: center;
-                                                                                font-weight: bold;
-                                                                                font-size: 15px;
-                                                                                border: 1px solid #007bff;
-                                                                                text-decoration: none; /* Забирає підкреслення */
-                                                                            }
-
-                                                                            .link strong:active {
-                                                                                background-color: #0056b3; /* Темніший відтінок при натисканні */
-                                                                            }
-                                                                            .product-item p.solded {
-                                                                                display: block;
-                                                                                margin-top: -15px;
-                                                                                margin-left: 1px;
-                                                                                line-height: 1px;
-                                                                                font-size: 18px;
-                                                                                font-weight: 200;
-                                                                                text-align: left;
-                                                                                display: inline-block; /* Щоб фон підлаштовувався під текст */
-                                                                                background: #FFFFE0; /* Світло-рожевий колір із прозорістю */
-                                                                                padding: 8px 6px; /* Відступи навколо ціни */
-                                                                                border-radius: 5px; /* Закруглені кути */
-                                                                                color: #800000; /* Темно-червоний текст */
-                                                                            }
-                                                                        </style>
-<script>
-                                                                                                // Функція для копіювання в буфер обміну
-                                                                                                function copyToClipboard(text) {{
-                                                                                            navigator.clipboard.writeText(text).then(function() {{
-                                                                                                        var message = document.getElementById("copyMessage");
-                                                                                                        message.innerHTML = 'Код скопійовано: ' + text;
-                                                                                                    message.style.display = 'block';  // Показати повідомлення
-                                                                                                        setTimeout(function() {{
-                                                                                                    message.style.display = 'none';  // Сховати повідомлення через 3 секунди
-                                                                                                        }}, 3000);
-                                                                                                    }}, function(err) {{
-                                                                                                        console.error('Помилка копіювання', err);
-                                                                                                    }});
-                                                                                                }}
-
-                                                                                                // Функція для відкриття посилання в новому вікні при подвійному натисканні
-                                                                                                function openInNewWindow(url) {{
-                                                                                                    window.open(url, '_blank');  // Відкриває посилання в новій вкладці
-                                                                                                }}
-                                                                                            </script>
-<div class="container">
-                                                                    
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_on33gup" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S03bfb82a9da84ddd8cf08b9667d2feabl.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">1/2PCS Smart PIR Sensor</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            51.12
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>222.13</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_okv77DB" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S323ee37bf5c648d2a0fe0c215e6226d6k.png_350x350.png" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">1/5PCS 433MHz Copy Remote</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            59.48
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>228.68</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oCtx0xr" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sec4a10bb3a9c4e74bde19b664f6137a9Z.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">433Mhz Universal Wireless Remote</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            60.30
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-75%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>241.20</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_olLMjPx" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S490976c791b248a1b67780c5427e5414P.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Metal Push Button Remote</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            61.35
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-76%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>255.58</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oCCgzsV" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbba7f5fa8ac646fca105bc8282d9caad0.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Mini Wifi Smart Switch</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            70.82
-                                                                                        </b><b style="margin-left: -5px; color: #6A5ACD; font-size: 14px; vertical-align: 8px;">-81%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>372.67</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oEutjL7" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S121cc8cfaa4140b38069e45e0d34660fd.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Tuya Smart Led Bulb</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            74.98
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-76%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>312.43</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oFYZ5VX" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S53ff781a02184fdda1bf2f2d66bdb6ebl.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">433Mhz Wireless Remote Control</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            75.56
-                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>243.77</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oDCMhqp" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S0bc07422c4e8402ca18a93ce6151cd9fG.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">8 cm DIY Planet</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            75.86
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>291.73</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_ol8XhdX" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sea1e0b090f73459ea553a0c4c9b9d05aP.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">RF 433Mhz Wireless Remote</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            76.80
-                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>247.75</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_optGtIh" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd80f7804897e4fd58a13cda5d75601c4M.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">E27 Switch Bulb Base</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            79.84
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>347.06</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_on8UBpR" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Scd6b11a1db7643caa9449201ba707b833.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">E27 Foldable Fan Shape</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            85.45
-                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-70%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>284.83</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oDHppmD" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S7a154fd2c6354c4782fde8e92dfe2abeY.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">50W Led Flood Light</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            86.67
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-75%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>346.82</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oFSdPL7" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S76cf50cfea5549edbfd0f11012b525dby.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Outdoor Super bright Flashlight</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            86.67
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-79%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>412.79</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_ok4b0eN" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S57afa8dd455f4afebce3c579fcbc9e82J.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Night Lamp Projector Starry</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            88.43
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>384.60</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oDx7Jcl" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd0b48ba42f8a411089aa641476fb9ec8d.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">RF 433MHz Wireless Light</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            94.45
-                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-68%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>295.12</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oETMsv7" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S1ed380efd13449c1b606b1ee0c8a8943I.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">EU Plug E27 Hanging</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            105.75
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>459.82</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oCr7G7J" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S346f76ae8d58491f870d87c3e53ee607J.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">E27 LED Lamp Wireless</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            121.71
-                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>392.56</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_oFZsnEp" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S8cbbaeb18c0d4e9ba7a3a46d44c5eadeo.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">50W LED Reflector Flood</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            123.87
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-73%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>458.88</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_olpfRnj" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S44920e05f74647019adad82464eb230a1.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Tuya 16A 20A EU</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            135.98
-                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-71%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>468.82</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                                <div class="product-item">
-                                                                                    <a href="https://s.click.aliexpress.com/e/_ooeEsbf" target="_blank">
-                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa406dfe19b2b41ce848c2bcbee9ac28bF.jpg_350x350.jpg" alt="Product Photo">
-                                                                                    </a>
-                                                                                    <p class="title">Matter WiFi Smart Socket</p>
-
-                                                                                    
-
-                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
-                                                                                        <b>
-                                                                                            179.79
-                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-67%</b> 
-                                                                                    </p>
-                                                                                    
-                                                                                    <p class="solded">
-                                                                                        <s>544.86</s>
-                                                                                    </p>  
-                                                                                        
-                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
-                                                                                    
-                                                                                </div>
-                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
-                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
-                                                                                    Посилання скопійовано
-                                                                                 </div>
-                                                                
-                                                                            </div>
-<br>
-<br>
 
         
 
@@ -2024,7 +1363,668 @@
                                                                             </div>
 <br>
 <br>
+<style>p { font-size:20px; line-height:10px; margin-top:30px;page-break-before:;}</style>
+<style>.product-block { margin-bottom: 0.1; border: 0.1;  #D3D3D3; border-radius: 1px; padding: 5px; }</style>
+<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 120%; color: #000000; font-weight: bold; margin-top: 20px;"><br>Світло/розетки
+ <br>(01.04.2025, 11:59)<br></p>
+<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;"><b>🐣 МИТТЄВІ ПОКУПКИ</b><br>‼️Розділ в якому обмежена кількість<br>товару за заниженими цінами.<br>При зменшенні кількості ціна зростає.<br>ⓘ Ціни без урахування знижки за монети та купони<br></p>
+<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;">⚠️ Важливо - якщо не встигли,<br>обов-язково додавайте товар до кошика 🛒 ,<br>через деякий час знову буде за тою ж ціною!<br><b>🐾 Для переходу до товару натисніть на фото</b></p>
+<style>
+                                                                                                        .container {
+                                                                                                            display: flex;
+                                                                                                            flex-direction: column;
+                                                                                                            align-items: flex-start;
+                                                                                                            gap: 5px;
+                                                                                                            width: calc(100% - 10px);
+                                                                                                        }
+                                                                                                        .product-item {
+                                                                                                            width: 100%;
+                                                                                                            box-sizing: border-box;
+                                                                                                            border: 1px solid #ddd;
+                                                                                                            padding: 5px;
+                                                                                                            text-align: left;
+                                                                                                            border-radius: 8px;
+                                                                                                            height: auto;
+                                                                                                            background: #f9f9f9;
+                                                                                                            gap: 5px;
+                                                                                                        }
+                                                                                                        .product-item p.text {
+                                                                                                            margin-top: 5px;
+                                                                                                            line-height: 5px;  /* Інтервал між рядками для заголовка */
+                                                                                                            font-size: 15px;
+                                                                                                            text-align: left;                                                   
+                                                                                                        }
+                                                                            .product-item img {
+                                                                                display: block; /* Дозволяє margin: auto працювати */
+                                                                                margin: auto; 
+                                                                                align-items: center; /* Центрує по вертикалі */
+                                                                                justify-content: center;
+                                                                                width: 100%;
+                                                                                height: auto;
+                                                                                border-radius: 8px;                                                   
+                                                                            }
+                                                                            .product-item p.title {
+                                                                                margin-top: 10px;
+                                                                                line-height: 20px;  /* Інтервал між рядками для заголовка */
+                                                                                font-size: 20px;
+                                                                                font-weight: bold;
+                                                                                text-align: left;
+                                                                                max-width: 100%;
+                                                                                white-space: nowrap;
+                                                                                overflow: hidden;
+                                                                            }
+                                                                            .product-item p.link {  
+                                                                                margin-top: -3px;
+                                                                                height: 20px;                                                  
 
+                                                                                line-height: 2px;  /* Інтервал між рядками для заголовка */
+                                                                                font-size: 10px;
+                                                                                font-weight: bold;
+                                                                                text-align: left;
+                                                                            }
+                                                                            .product-item p.link a {
+                                                                                display: flex;
+                                                                                align-items: center; /* Центрує по вертикалі */
+                                                                                justify-content: center; /* Центрує по горизонталі */
+                                                                                padding: 5px 10px;
+                                                                                background-color: #fff; /* Колір кнопки */
+                                                                                color: #007bff; /* Синій текст */
+                                                                                font-size: 15px;
+                                                                                font-weight: bold;
+                                                                                height: 12px; /* Висота кнопки */
+                                                                                width: 90%; /* Ширина кнопки */
+
+                                                                                text-align: center;
+                                                                                text-decoration: none;
+                                                                                border: 1px solid #007bff;
+                                                                                border-radius: 5px; /* Закруглені кути */
+                                                                                transition: background-color 0.3s ease;
+                                                                            }
+
+                                                                            .product-item p.link a:hover {
+                                                                                background-color: #0056b3; /* Темніший відтінок при наведенні */
+                                                                            }
+                                                                            .link strong {
+                                                                                display: flex;
+                                                                                align-items: center; /* Центрує по вертикалі */
+                                                                                justify-content: center; /* Центрує по горизонталі */
+                                                                                background-color: #fff; /* Колір кнопки (синій) */
+                                                                                color: #007bff; /* Синій текст */
+                                                                                height: 12px; /* Висота кнопки */
+                                                                                width: 90%; /* Ширина кнопки */
+                                                                                padding: 5px 10px; /* Відступи всередині кнопки */
+                                                                                border-radius: 5px; /* Закруглені кути */
+                                                                                cursor: pointer; /* Курсор у вигляді руки */
+                                                                                text-align: center;
+                                                                                font-weight: bold;
+                                                                                font-size: 15px;
+                                                                                border: 1px solid #007bff;
+                                                                                text-decoration: none; /* Забирає підкреслення */
+                                                                            }
+
+                                                                            .link strong:active {
+                                                                                background-color: #0056b3; /* Темніший відтінок при натисканні */
+                                                                            }
+                                                                            .product-item p.solded {
+                                                                                display: block;
+                                                                                margin-top: -15px;
+                                                                                margin-left: 1px;
+                                                                                line-height: 1px;
+                                                                                font-size: 18px;
+                                                                                font-weight: 200;
+                                                                                text-align: left;
+                                                                                display: inline-block; /* Щоб фон підлаштовувався під текст */
+                                                                                background: #FFFFE0; /* Світло-рожевий колір із прозорістю */
+                                                                                padding: 8px 6px; /* Відступи навколо ціни */
+                                                                                border-radius: 5px; /* Закруглені кути */
+                                                                                color: #800000; /* Темно-червоний текст */
+                                                                            }
+                                                                        </style>
+<script>
+                                                                                                // Функція для копіювання в буфер обміну
+                                                                                                function copyToClipboard(text) {{
+                                                                                            navigator.clipboard.writeText(text).then(function() {{
+                                                                                                        var message = document.getElementById("copyMessage");
+                                                                                                        message.innerHTML = 'Код скопійовано: ' + text;
+                                                                                                    message.style.display = 'block';  // Показати повідомлення
+                                                                                                        setTimeout(function() {{
+                                                                                                    message.style.display = 'none';  // Сховати повідомлення через 3 секунди
+                                                                                                        }}, 3000);
+                                                                                                    }}, function(err) {{
+                                                                                                        console.error('Помилка копіювання', err);
+                                                                                                    }});
+                                                                                                }}
+
+                                                                                                // Функція для відкриття посилання в новому вікні при подвійному натисканні
+                                                                                                function openInNewWindow(url) {{
+                                                                                                    window.open(url, '_blank');  // Відкриває посилання в новій вкладці
+                                                                                                }}
+                                                                                            </script>
+<div class="container">
+                                                                    
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_on33gup" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S03bfb82a9da84ddd8cf08b9667d2feabl.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">1/2PCS Smart PIR Sensor</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            51.12
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>222.13</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_okv77DB" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S323ee37bf5c648d2a0fe0c215e6226d6k.png_350x350.png" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">1/5PCS 433MHz Copy Remote</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            59.48
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>228.68</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oCtx0xr" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sec4a10bb3a9c4e74bde19b664f6137a9Z.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">433Mhz Universal Wireless Remote</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            60.30
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-75%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>241.20</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_olLMjPx" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S490976c791b248a1b67780c5427e5414P.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Metal Push Button Remote</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            61.35
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-76%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>255.58</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oCCgzsV" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbba7f5fa8ac646fca105bc8282d9caad0.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Mini Wifi Smart Switch</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            70.82
+                                                                                        </b><b style="margin-left: -5px; color: #6A5ACD; font-size: 14px; vertical-align: 8px;">-81%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>372.67</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oEutjL7" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S121cc8cfaa4140b38069e45e0d34660fd.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Tuya Smart Led Bulb</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            74.98
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-76%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>312.43</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oFYZ5VX" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S53ff781a02184fdda1bf2f2d66bdb6ebl.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">433Mhz Wireless Remote Control</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            75.56
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>243.77</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oDCMhqp" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S0bc07422c4e8402ca18a93ce6151cd9fG.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">8 cm DIY Planet</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            75.86
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>291.73</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_ol8XhdX" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sea1e0b090f73459ea553a0c4c9b9d05aP.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">RF 433Mhz Wireless Remote</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            76.80
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>247.75</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_optGtIh" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd80f7804897e4fd58a13cda5d75601c4M.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">E27 Switch Bulb Base</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            79.84
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>347.06</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_on8UBpR" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Scd6b11a1db7643caa9449201ba707b833.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">E27 Foldable Fan Shape</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            85.45
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-70%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>284.83</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oDHppmD" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S7a154fd2c6354c4782fde8e92dfe2abeY.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">50W Led Flood Light</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            86.67
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-75%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>346.82</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oFSdPL7" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S76cf50cfea5549edbfd0f11012b525dby.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Outdoor Super bright Flashlight</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            86.67
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-79%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>412.79</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_ok4b0eN" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S57afa8dd455f4afebce3c579fcbc9e82J.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Night Lamp Projector Starry</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            88.43
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>384.60</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oDx7Jcl" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd0b48ba42f8a411089aa641476fb9ec8d.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">RF 433MHz Wireless Light</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            94.45
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-68%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>295.12</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oETMsv7" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S1ed380efd13449c1b606b1ee0c8a8943I.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">EU Plug E27 Hanging</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            105.75
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>459.82</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oCr7G7J" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S346f76ae8d58491f870d87c3e53ee607J.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">E27 LED Lamp Wireless</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            121.71
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>392.56</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oFZsnEp" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S8cbbaeb18c0d4e9ba7a3a46d44c5eadeo.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">50W LED Reflector Flood</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            123.87
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-73%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>458.88</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_olpfRnj" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S44920e05f74647019adad82464eb230a1.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Tuya 16A 20A EU</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            135.98
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-71%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>468.82</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_ooeEsbf" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa406dfe19b2b41ce848c2bcbee9ac28bF.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Matter WiFi Smart Socket</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 24px;">
+                                                                                        <b>
+                                                                                            179.79
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-67%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>544.86</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 18px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                            </div>
+<br>
+<br>
 
 
 <a href="https://sites.google.com/view/discounts-from-ali" class="button" style="border: 2px solid #B22222; font-family: Helvetica, sans-serif; margin-top: 100px; font-size: 14px; font-weight: bold; padding: 10px; background-color: white; color: #800000; border-radius: 10px;cursor: pointer; width: 150px; height: 30px; text-decoration: none;  ">КОРИСНА ІНФОРМАЦІЯ</a>
