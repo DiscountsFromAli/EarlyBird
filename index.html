@@ -98,7 +98,462 @@
     
     <body>
 
-<style>p { font-size:20px; line-height:10px; margin-top:30px;page-break-before:;}</style>
+
+        
+        <style>p { font-size:20px; line-height:10px; margin-top:30px;page-break-before:;}</style>
+<style>.product-block { margin-bottom: 0.1; border: 0.1;  #D3D3D3; border-radius: 1px; padding: 5px; }</style>
+<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 120%; color: #000000; font-weight: bold; margin-top: 20px;"><br> <br>(05.04.2025, 15:15)<br></p>
+<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;"><b>🐣 МИТТЄВІ ПОКУПКИ</b><br>‼️Розділ в якому обмежена кількість<br>товару за заниженими цінами.<br>При зменшенні кількості ціна зростає.<br>ⓘ Ціни без урахування знижки за монети та купони<br></p>
+<p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;">⚠️ Важливо - якщо не встигли,<br>обов-язково додавайте товар до кошика 🛒 ,<br>через деякий час знову буде за тою ж ціною!<br><b>🐾 Для переходу до товару натисніть на фото</b></p>
+<style>
+                                                                                                        .container {
+                                                                                                            display: flex;
+                                                                                                            flex-wrap: wrap;
+                                                                                                            gap: 10px; /* Відстань між товарами */
+                                                                                                        }
+                                                                                                        
+                                                                                                        .product-item {
+                                                                                                            width: calc(50% - 10px); /* 50% ширини мінус відступ */
+                                                                                                            box-sizing: border-box;
+                                                                                                            border: 1px solid #ddd;
+                                                                                                            padding: 10px;
+                                                                                                            text-align: left;
+                                                                                                            border-radius: 8px;
+                                                                                                            background: #f9f9f9;
+                                                                                                        }
+                                                                                                        .product-item p.text {
+                                                                                                            margin-top: 2px;
+                                                                                                            line-height: 2px;  /* Інтервал між рядками для заголовка */
+                                                                                                            font-size: 15px;
+                                                                                                            text-align: left;                                                   
+                                                                                                        }
+                                                                            .product-item img {
+                                                                                display: block; /* Дозволяє margin: auto працювати */
+                                                                                margin: auto; 
+                                                                                align-items: center; /* Центрує по вертикалі */
+                                                                                justify-content: center;
+                                                                                width: 100%;
+                                                                                height: auto;
+                                                                                border-radius: 8px;                                                   
+                                                                            }
+                                                                            .product-item p.title {
+                                                                                margin-top: 10px;
+                                                                                line-height: 20px;  /* Інтервал між рядками для заголовка */
+                                                                                font-size: 14px;
+                                                                                font-weight: bold;
+                                                                                text-align: left;
+                                                                                max-width: 100%;
+                                                                                white-space: nowrap;
+                                                                                overflow: hidden;
+                                                                            }
+                                                                            .product-item p.link {  
+                                                                                margin-top: -3px;
+                                                                                height: 20px;                                                  
+
+                                                                                line-height: 2px;  /* Інтервал між рядками для заголовка */
+                                                                                font-size: 10px;
+                                                                                font-weight: bold;
+                                                                                text-align: left;
+                                                                            }
+                                                                            .product-item p.link a {
+                                                                                display: flex;
+                                                                                align-items: center; /* Центрує по вертикалі */
+                                                                                justify-content: center; /* Центрує по горизонталі */
+                                                                                padding: 5px 10px;
+                                                                                background-color: #fff; /* Колір кнопки */
+                                                                                color: #007bff; /* Синій текст */
+                                                                                font-size: 15px;
+                                                                                font-weight: bold;
+                                                                                height: 12px; /* Висота кнопки */
+                                                                                width: 90%; /* Ширина кнопки */
+
+                                                                                text-align: center;
+                                                                                text-decoration: none;
+                                                                                border: 1px solid #007bff;
+                                                                                border-radius: 5px; /* Закруглені кути */
+                                                                                transition: background-color 0.3s ease;
+                                                                            }
+
+                                                                            .product-item p.link a:hover {
+                                                                                background-color: #0056b3; /* Темніший відтінок при наведенні */
+                                                                            }
+                                                                            .link strong {
+                                                                                display: flex;
+                                                                                align-items: center; /* Центрує по вертикалі */
+                                                                                justify-content: center; /* Центрує по горизонталі */
+                                                                                background-color: #fff; /* Колір кнопки (синій) */
+                                                                                color: #007bff; /* Синій текст */
+                                                                                height: 12px; /* Висота кнопки */
+                                                                                width: 90%; /* Ширина кнопки */
+                                                                                padding: 5px 10px; /* Відступи всередині кнопки */
+                                                                                border-radius: 5px; /* Закруглені кути */
+                                                                                cursor: pointer; /* Курсор у вигляді руки */
+                                                                                text-align: center;
+                                                                                font-weight: bold;
+                                                                                font-size: 15px;
+                                                                                border: 1px solid #007bff;
+                                                                                text-decoration: none; /* Забирає підкреслення */
+                                                                            }
+
+                                                                            .link strong:active {
+                                                                                background-color: #0056b3; /* Темніший відтінок при натисканні */
+                                                                            }
+                                                                            .product-item p.solded {
+                                                                                display: block;
+                                                                                margin-top: -15px;
+                                                                                margin-left: 1px;
+                                                                                line-height: 1px;
+                                                                                font-size: 16px;
+                                                                                font-weight: 200;
+                                                                                text-align: left;
+                                                                                display: inline-block; /* Щоб фон підлаштовувався під текст */
+                                                                                background: #FFFFE0; /* Світло-рожевий колір із прозорістю */
+                                                                                padding: 8px 6px; /* Відступи навколо ціни */
+                                                                                border-radius: 5px; /* Закруглені кути */
+                                                                                color: #800000; /* Темно-червоний текст */
+                                                                            }
+                                                                        </style>
+<script>
+                                                                                                // Функція для копіювання в буфер обміну
+                                                                                                function copyToClipboard(text) {{
+                                                                                            navigator.clipboard.writeText(text).then(function() {{
+                                                                                                        var message = document.getElementById("copyMessage");
+                                                                                                        message.innerHTML = 'Код скопійовано: ' + text;
+                                                                                                    message.style.display = 'block';  // Показати повідомлення
+                                                                                                        setTimeout(function() {{
+                                                                                                    message.style.display = 'none';  // Сховати повідомлення через 3 секунди
+                                                                                                        }}, 3000);
+                                                                                                    }}, function(err) {{
+                                                                                                        console.error('Помилка копіювання', err);
+                                                                                                    }});
+                                                                                                }}
+
+                                                                                                // Функція для відкриття посилання в новому вікні при подвійному натисканні
+                                                                                                function openInNewWindow(url) {{
+                                                                                                    window.open(url, '_blank');  // Відкриває посилання в новій вкладці
+                                                                                                }}
+                                                                                            </script>
+<div class="container">
+                                                                    
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oFSW8i5" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S2aed7b1d1cf7469d831ae2c9f0dd1575O.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's sexy lace lingerie</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            89.24
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-73%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>330.55</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oneoMRn" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S7effe9f2d0854d9d9ff96ca485e9c89ez.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's Sexy Front button</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            113.79
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>437.71</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oDUlF2h" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S44e48df1425049bb9d6acc014f78c210x.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Sweet Pink leopard print</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            123.21
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>473.89</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_ooD4H7b" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Se0b3507a349a4211b83a2f2c0a601199p.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's Black Printed Two</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            123.21
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-74%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>473.89</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oE4nms1" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Secb8119e848444fda3a856895c8415a4F.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's Sweet Underwear Set</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            125.08
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-77%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>543.82</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oBUep1n" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sdec98f5acdf34a61b00c4d79e9bd43666.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Sexy bra Lingerie black</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            127.35
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-67%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>385.82</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_olwufRj" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S557793426171456f914b849648a29b5fa.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's sexy lingerie deep</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            131.30
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-76%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>547.08</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_onAsXtr" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa31c11555fc74cd7971365c841124ccbC.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's No Steel Rim</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            133.05
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-69%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>429.10</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_oBLcCdL" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S72683866ea204958ae5e93a56b37dfc9i.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">2 pieces of multi-color</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            136.71
+                                                                                        </b><b style="margin-left: -5px; color: #800000; font-size: 14px; vertical-align: 8px;">-75%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>546.84</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_onEKSTR" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/S2453fc5f73d5444f99dc73f0429c432f5.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Sexy Fashion Underwear Set</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            145.38
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-68%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>454.35</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_opOp3X7" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sb76b023962e042f9a583bf7ae4bab5c8F.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's Sexy Embroidered Lace</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            149.74
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-70%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>499.14</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                                <div class="product-item">
+                                                                                    <a href="https://s.click.aliexpress.com/e/_opVnOXR" target="_blank">
+                                                                                        <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sc019e93063e04260a6a1a453a0ad037cJ.jpg_350x350.jpg" alt="Product Photo">
+                                                                                    </a>
+                                                                                    <p class="title">Women's lingerie set with</p>
+
+                                                                                    
+
+                                                                                    <p class="text" style="margin-left: 5px; font-size: 20px;">
+                                                                                        <b>
+                                                                                            160.74
+                                                                                        </b><b style="margin-left: -5px; color: #FF3333; font-size: 14px; vertical-align: 8px;">-67%</b> 
+                                                                                    </p>
+                                                                                    
+                                                                                    <p class="solded">
+                                                                                        <s>487.16</s>
+                                                                                    </p>  
+                                                                                        
+                                                                                    <p class="text" style="font-weight: bold; font-size: 14px; color: #800000;">🐣 РАННЯ УГОДА</p>                                            
+                                                                                    
+                                                                                </div>
+                                                                                <!-- Повідомлення, яке буде з'являтись і зникати -->
+                                                                                 <div id="copyMessage" style="display: none; position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 10px; background-color: rgba(0, 0, 0, 0.7); color: white; border-radius: 5px;">
+                                                                                    Посилання скопійовано
+                                                                                 </div>
+                                                                
+                                                                            </div>
+<br>
+<br>
+
+        
+        
+        <style>p { font-size:20px; line-height:10px; margin-top:30px;page-break-before:;}</style>
 <style>.product-block { margin-bottom: 0.1; border: 0.1;  #D3D3D3; border-radius: 1px; padding: 5px; }</style>
 <p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 120%; color: #000000; font-weight: bold; margin-top: 20px;"><br> <br>(05.04.2025, 12:05)<br></p>
 <p style="line-height: 1.5;text-align: left; font-family: Helvetica; font-size: 14px; color: #000000; font-weight: lighter; margin-top: 5px; max-width: 490px;"><b>🐣 МИТТЄВІ ПОКУПКИ</b><br>‼️Розділ в якому обмежена кількість<br>товару за заниженими цінами.<br>При зменшенні кількості ціна зростає.<br>ⓘ Ціни без урахування знижки за монети та купони<br></p>
